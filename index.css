@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 .container {
-    background: rgb(109 207 255 / 52%);
+    background: linear-gradient(135deg, #00F9F7 0%, #154BC6 100%);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -30,7 +30,6 @@ h1 {
     text-align: center;
 }
 input[type="number"] {
-    width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -75,15 +74,3 @@ p {
     padding: 10px;
 }
 
-@media (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-    input[type="number"] {
-        width: calc(100% - 12px);
-    }
-    button {
-        width: 100%;
-        padding: 10px 0;
-    }
-}
