@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 .container {
-    background-color: #fff;
+    background: rgb(109 207 255 / 52%);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -66,6 +66,12 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.gray-bkg{
+    background-color: #F4F4F4;
+    margin:10px;
+    padding: 10px;
 }
 
 @media (max-width: 600px) {
